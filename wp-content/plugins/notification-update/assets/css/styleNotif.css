@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+#mycred-notificiation-wrap { position: fixed !important; position: fixed; z-index: 9999; opacity: 1; width: auto; height: auto;background:transparent !important;}
+#mycred-notificiation-wrap .notice-item { position: relative; display: block; width: auto; height: auto; min-width: 250px;}
+#mycred-notificiation-wrap .notice-item-close { display: block; float: right; width: 50px; height: 50px; line-height: 22px; font-size: 20px; text-align: center; cursor: pointer; color:black}
+#mycred-notificiation-wrap .notice-item { padding: 12px; line-height: 0px; font-size: 12px; border-style: solid;}
+#mycred-notificiation-wrap .notice-item p { display: block; margin: 0; padding: 0; line-height: 16px;}
+#mycred-notificiation-wrap .notice-item img { border-radius: 50px;}
+
+.bandeau{
+    padding: 0 0 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.bandeau p{
+    color:rgb(22, 22, 22);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:17px;
+    font-weight: 300;
+}
+.notif{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+.content p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:15px;
+    font-weight: 100;
+}
+.content img{
+    margin: 0 20px 0 0px;
+    border:1px solid black;
+    
+}
+
